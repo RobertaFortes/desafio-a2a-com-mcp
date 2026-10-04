@@ -1,0 +1,16 @@
+[project]
+name = "central-de-salas-servidor-mcp"
+version = "1.0.0"
+description = "Servidor MCP (Streamable HTTP, stateless) da Central de Salas"
+requires-python = ">=3.10"
+dependencies = [
+    "mcp==2.3.0",
+    "uvicorn==0.54.0",
+]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+py-modules = []
